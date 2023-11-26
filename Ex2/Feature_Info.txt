@@ -1,7 +1,0 @@
-The application defines a custom command, "AddCommand" which prints the message "Welcome into the world of AutoCAD" to the AutoCAD command line.
-
-Step1: Compile and build the debug version of the AutoCAD project in Visual Studio.
-Step2: Load the compiled ObjectARX file into AutoCAD using the "APPLOAD" command in the AutoCAD command line.
-Step3: Unload the custom command feature after use by clicking on the "Unload" command in the Appload window.
-Step4: the code provides a simple integration of a custom command into AutoCAD, allowing users to load and unload the feature as needed. 
-       The custom command prints a greeting message when executed in the AutoCAD environment.
