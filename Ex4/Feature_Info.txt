@@ -1,1 +1,11 @@
+The addLine function, within an AutoCAD application using the ObjectARX API, performs the following steps:
+
+step1 : Retrieves the current drawing's database by obtaining a pointer to it.
+step2 : Allows read-only access to the Block Table, which holds information about blocks in the drawing.
+step3 : Retrieves the Block Table Record for the Model Space, a special block where drawing entities are typically placed.
+step4 : Specifies the 3D coordinates for the start and end points of the new line.
+step5 : Allocates memory for a new AcDbLine object, representing a straight line entity in AutoCAD.
+step6 : Adds the newly created line object to the Model Space Block Table Record, effectively placing the line in the drawing.
+step7 : Closes the Model Space Block Table Record, ensuring proper resource handling.
+step8 : Releases resources associated with the new line object, an essential step in memory management.
 
