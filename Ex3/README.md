@@ -13,12 +13,12 @@ This ObjectARX application defines a custom command, "AddCommand," that displays
    - Prints a message to the AutoCAD command line, indicating that the application has been loaded.
  
 3. **Register New Modal Command:**
-   - Registers a new modal command named "MYCOMMAND" in the "MyGroup" group.
-   - Associates the command with the `AddCommand` function in the `CExercise3App` class.
+   - Registers a new modal command named "AddCommand" in the "MyGroup" group.
+   - Associates the command with the `addCommand` function in the `CExercise3App` class.
  
-## Custom Command - MyCommand
+## Custom Command - AddCommand
  
-The `AddCommand` function defines the behavior of the custom command "MYCOMMAND." When executed, it prints the message "Hello ROHIT in the World of AutoCAD" to the AutoCAD command line.
+The `AddCommand` function defines the behavior of the custom command "AddCommand." When executed, it prints the message "Welcome in the World of AutoCAD" to the AutoCAD command line.
  
 ## Unload
  
