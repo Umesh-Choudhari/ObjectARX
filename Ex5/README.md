@@ -2,11 +2,11 @@
  
 ## Overview
  
-This ObjectARX application defines a function called `AddLayer` that ensures the existence of a layer named "OBJ" within the current AutoCAD drawing. If the "OBJ" layer does not already exist, the function creates it with specified properties.
+This ObjectARX application defines a function called `addLayer` that ensures the existence of a layer named "OBJ" within the current AutoCAD drawing. If the "OBJ" layer does not already exist, the function creates it with specified properties.
  
 ## Functionality
  
-The `AddLayer` function performs the following steps:
+The `addLayer` function performs the following steps:
  
 1. **Check for Existing Layer:**
 
@@ -36,7 +36,7 @@ The `AddLayer` function performs the following steps:
  
 2. **Run the Command:**
 
-   - In AutoCAD, enter the custom command associated with the `AddLayer` function (e.g., "AddLAYER").
+   - In AutoCAD, enter the custom command associated with the `addLayer` function (e.g., "AddLayer").
  
 3. **View Results:**
 
