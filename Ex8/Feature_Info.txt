@@ -1,1 +1,9 @@
+This code defines a function called changeColor that, when executed, allows the user tselect objects in AutoCAD and change their color.
+step1 : Prompts the user to select objects in AutoCAD.
+step2 : If objects are selected, it prompts the user to enter a color keyword/option, defaulting to "Red."
+step3 : Iterates through the selected objects and changes their color based on the user's input.
+step4 : The user can specify colors using keywords ("Red," "Yellow," "Green") or numeric values (1, 2, 3).
+step5 : If the user chooses "Bylayer," the object's color is set to be determined by the layer color.
+step6 : Closes the selected objects after changing their colors.
 
+This function provides a way for the user to interactively change the color of selected objects in AutoCAD by specifying a color keyword or numeric value.
