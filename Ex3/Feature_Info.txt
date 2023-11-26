@@ -1,7 +1,0 @@
-Defined a function named "AddCommand" to display the message "Hello in the World of AutoCAD" when the user enters the command in the AutoCAD command line.
-
-step1 : Unlocks the application and registers it as MDI (Multiple Document Interface) aware.
-step2 : Prints a message to the AutoCAD command line, indicating that the application has been loaded.
-step3 : Registers a new modal command named "MYCOMMAND" in the "MyGroup" group, associating it with the MyCommand function in the CProject3App class.
-step4 : Defines the behavior of the custom command "MYCOMMAND" to print the message "Hello in the World of AutoCAD" to the AutoCAD command line.
-step5 : Prints a message to the AutoCAD command line, indicating that the application is being unloaded.
