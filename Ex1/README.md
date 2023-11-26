@@ -16,7 +16,7 @@ This project serves as a template for developing ObjectARX applications in the A
    - Handle initialization and unloading messages, such as `AcRx::kInitAppMsg` and `AcRx::kUnloadAppMsg`.
 5. **Implement Command for Message Display:**
    - Implement code to display the message "Hello in the world of AutoCAD" when the command "MYCOMMAND" is entered in AutoCAD.
-   - Define a custom command function (e.g., `AddCommand`) and register it using `acedRegCmds->addCommand`.
+   - Define a custom command function (e.g., `addCommand`) and register it using `acedRegCmds->addCommand`.
  
 ## Usage
  
