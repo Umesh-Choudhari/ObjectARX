@@ -60,7 +60,7 @@ int acrxEntryPoint(AcRx::AppMsgCode Msg, void* pkt)
         acrxRegisterAppMDIAware(pkt);
         acutPrintf(L"\n Command Loaded");
         // below line for registering new command
-        acedRegCmds->addCommand(L"AUCommands", _T("AddLine"), _T("AddLine"), ACRX_CMD_MODAL, &CExercise11App::commandAndSystemVariable);
+        acedRegCmds->addCommand(L"AUCommands", _T("commandAndSysVar"), _T("commandAndSysVar"), ACRX_CMD_MODAL, &CExercise11App::commandAndSystemVariable);
         break;
     case AcRx::kUnloadAppMsg:
         acutPrintf(_T("\n Command Unloaded"));
