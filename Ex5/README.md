@@ -1,4 +1,4 @@
-# AutoCAD ObjectARX Application - Make Layer
+# AutoCAD ObjectARX Application - Add Layer
  
 ## Overview
  
