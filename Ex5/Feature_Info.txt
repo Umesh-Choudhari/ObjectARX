@@ -1,1 +1,6 @@
-
+The AddLayer function is designed to create a new layer named "OBJ" within the current AutoCAD drawing upon execution.
+step1 : Open the Layer Table for write access.
+step2 : Create a new AcDbLayerTableRecord representing the "OBJ" layer.
+step3 : Set the layer's name to "OBJ" and its color to cyan.
+step4 : Add the new layer to the Layer Table.
+step5 : Close both the Layer Table and the created layer record to release resources.
