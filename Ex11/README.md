@@ -17,7 +17,7 @@ This ObjectARX application defines a function called `commandAndSystemVariable` 
    - Build the project and load the resulting DLL in AutoCAD.
  
 2. **Run the Command:**
-   - In AutoCAD, enter the custom command associated with the `commandAndSysVar` function (e.g., "MYCOMMAND").
+   - In AutoCAD, enter the custom command associated with the `commandAndSystemVariable` function (e.g., "MYCOMMAND").
  
 3. **Interact with CIRCLERAD:**
    - The function will retrieve the current value of the CIRCLERAD system variable, display it, create a circle with specified values, and pause for user input.
